@@ -24,8 +24,8 @@ namespace Data.Configurations
             builder.Property(x => x.Stock).IsRequired().HasDefaultValue(0);
 
             builder.Property(x => x.ViewCount).IsRequired().HasDefaultValue(0);
-
-
+            builder.Property(x => x.Name).HasMaxLength(40).IsRequired();
+            builder.Property(x => x.Description).IsRequired();
         }
  
     }

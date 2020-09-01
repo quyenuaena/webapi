@@ -13,10 +13,12 @@ namespace Data.Entities
         public int ViewCount { get; set; }
         public DateTime DateCreated { get; set; }
         public string SeoAlias { get; set; }
+        public string Description { get; set; }
+        public string Name { get; set; }
         public List<ProductInCategory> ProductInCategories { get; set; }
 
         public List<OrderDetail> OrderDetails { get; set; }
-
+        public List<ProductImage> ProductImages { get; set; }
         public List<Cart> Carts { get; set; }
             
     }

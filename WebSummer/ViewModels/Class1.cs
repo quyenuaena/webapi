@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Application
+namespace ViewModels
 {
     public class Class1
     {
